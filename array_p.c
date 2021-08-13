@@ -16,5 +16,8 @@ int main()
         printf("%d", *(p+i));    // pointer notation with p
     for(int i=0;i<5;i++)
         printf("%d", *(a+i));    // pointer notation with p
+    for(int i=0;i<5;i++)
+        printf("%d", *(p++));
+
     return 0;
 }
